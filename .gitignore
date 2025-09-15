@@ -1,0 +1,15 @@
+*.o
+*.obj
+
+*.exe
+*.out
+*.app
+
+*.log
+*.txt
+
+*~
+*.swp
+
+*.d
+*.s
