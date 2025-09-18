@@ -22,10 +22,10 @@
 template<typename T>
 void f(const T&& param); // param is an rvalue reference
 
-
-void f(auto&& x) {
-    std :: cout << x << '\n';
-}
+// with -std=c++20
+// void f(auto&& x) {
+//     std :: cout << x << '\n';
+// }
 
 int main()
 {
@@ -37,7 +37,7 @@ int main()
     // template<typename T>
     // void f(T&& param); // not rvalue reference
 
-    f(10);
+    // f(10);
 
     return 0;
 }

@@ -2,6 +2,7 @@
 #include <iostream>
 #include <vector>
 #include <mutex>
+#include <thread>
 #include <atomic>
 #include <cmath>
 
@@ -87,6 +88,7 @@ private:
 
 int main()
 {
+    std::cout << __cplusplus << endl;
 
     return 0;
 }

@@ -78,7 +78,8 @@ int main()
     A a;
     A a1{};
 
-    A a2{a};
+    // ok but deprecated
+    // A a2{a};
 
     return 0;
 }

@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <tuple>
+#include <cstdint>
 
 enum Status : std::uint8_t
 {

@@ -7,9 +7,12 @@
 
 *.log
 *.txt
+!CMakeLists.txt
 
 *~
 *.swp
 
 *.d
 *.s
+
+cmake-build-*/
