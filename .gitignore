@@ -7,7 +7,6 @@
 
 *.log
 *.txt
-!CMakeLists.txt
 
 *~
 *.swp
@@ -16,3 +15,6 @@
 *.s
 
 cmake-build-*/
+
+
+!CMakeLists.txt
