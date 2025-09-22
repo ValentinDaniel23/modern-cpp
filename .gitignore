@@ -15,5 +15,6 @@
 *.s
 
 cmake-build-*/*
+.idea/*
 
 !CMakeLists.txt

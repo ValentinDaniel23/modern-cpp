@@ -25,10 +25,13 @@ set(SOURCES
         item25.cpp
         item26.cpp
         item27.cpp
+        item28.cpp
+        item29.cpp
+        item30.cpp
+        item31.cpp
 )
 
 foreach(src ${SOURCES})
     get_filename_component(exename ${src} NAME_WE)
-    add_executable(${exename} ${src}
-            item27.cpp)
+    add_executable(${exename} ${src})
 endforeach()
