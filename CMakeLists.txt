@@ -29,6 +29,9 @@ set(SOURCES
         item29.cpp
         item30.cpp
         item31.cpp
+        item32.cpp
+        item33.cpp
+        item34.cpp
 )
 
 foreach(src ${SOURCES})
